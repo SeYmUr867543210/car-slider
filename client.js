@@ -12,7 +12,7 @@ function showCars(event, selectedLogo) {
 
     for (let i = 0; i < carsParent.children.length; i++) {
 
-        let mainPath = "/imgs/";
+        let mainPath = "imgs/";
         let carName = selectedLogo ? selectedLogo : "Lamborghini";
         let carSide = carOutSide ? `${carName}Outside` : `${carName}Inside`;
         let imgFormat = ".jpg";
@@ -65,22 +65,22 @@ for (let i = 0; i < allCars.length; i++) {
 
     if (allCars[i] == "Lamborghini") {
         img.setAttribute("selected", true)
-        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(/imgs/Lamborghini-logo.png) ;";
+        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(imgs/Lamborghini-logo.png) ;";
         img.setAttribute("name", allCars[i])
     } else if (allCars[i] == "Bmw") {
-        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(/imgs/bmw-logo.png);";
+        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(imgs/bmw-logo.png);";
         img.setAttribute("name", allCars[i])
     } else if (allCars[i] == "Mercedes") {
-        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(/imgs/mersedes-logo.png);";
+        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(imgs/mersedes-logo.png);";
         img.setAttribute("name", allCars[i])
     } else if (allCars[i] == "Audi") {
-        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(/imgs/audi-logo.png);";
+        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(imgs/audi-logo.png);";
         img.setAttribute("name", allCars[i])
     } else if (allCars[i] == "Porsche") {
-        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(/imgs/porsche-logo.jpg);";
+        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(imgs/porsche-logo.jpg);";
         img.setAttribute("name", allCars[i])
     } else if (allCars[i] == "FordMustang") {
-        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(/imgs/mustang-logo.jpg);";// mustang-logo.jpg
+        img.style = "width: 150px;height: 100px;background: center/contain no-repeat url(imgs/mustang-logo.jpg);";// mustang-logo.jpg
         img.setAttribute("name", allCars[i])
     }
 
